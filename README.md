@@ -1,5 +1,3 @@
-# Customer Lifetime Value (CLV) Calculation for a small local Cafe
-
 ## Project Overview
 
 Customer Lifetime Value (CLV) is a crucial metric for businesses to understand how valuable each customer is over their entire relationship with the brand. For a cafe, CLV can help determine how much revenue a customer will likely generate, allowing for targeted marketing, personalized offers, and improving customer retention strategies.
