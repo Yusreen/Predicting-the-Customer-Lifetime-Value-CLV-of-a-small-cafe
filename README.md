@@ -45,9 +45,20 @@ This project follows the Medallion Architecture for data processing, which invol
 
 Bronze Layer (Raw Data): This is where all the raw, unprocessed transactional data is stored. It contains the data as-is, without any transformations.
 
-Silver Layer (Cleaned and Transformed Data): In this layer, data is cleaned and enriched. We perform necessary transformations, such as joining datasets, handling missing values, and creating features like Total Spend, Visit Frequency, and CLV.
+Silver Layer (Cleaned and Transformed Data): In this layer, data is cleaned and enriched. We perform necessary transformations, such as renaming columns, adding ingestion_date in all datasets.
 
-Gold Layer (Aggregated Data): This layer contains business-ready, aggregated data for reporting and analysis. Key metrics like Customer Lifetime Value (CLV) and Customer Segmentation are calculated and stored here.
+Gold Layer (Aggregated Data): This layer contains business-ready, aggregated data for reporting and analysis. 
+The following tables were created:
+
+1. average customer spending
+2. clv estimate
+3. item purchased
+4. loyalty spending
+5. signup date analysis
+6. spending loyalty status
+7. spending per day
+   
+
 
 ## Project Steps and Workflow
 
@@ -66,16 +77,14 @@ Data from multiple sources (Transaction Data, Customer Data, Visit Frequency, Di
 
 ### Feature engineering is performed to create useful features such as:
 
-Average Transaction Value (ATV)
-
-Total Spend
-
-Customer Tenure
-
-Discount Usage
-
-RFM (Recency, Frequency, Monetary) Analysis is applied to segment customers based on their transaction history.
-
+1. average customer spending
+2. clv estimate
+3. item purchased
+4. loyalty spending
+5. signup date analysis
+6. spending loyalty status
+7. spending per day
+8. 
 ### 3. Incremental Loads
    
 Data is incrementally loaded using timestamps or unique identifiers like Transaction Date or Customer ID.
@@ -131,7 +140,6 @@ Delta Lake: Optimized storage with ACID transactions for incremental loads.
 
 SQL: Data manipulation and transformation.
 
-Power BI: Visualization and reporting.
 
 ## Getting Started
 
@@ -139,7 +147,6 @@ Power BI: Visualization and reporting.
 
 Azure subscription (for using Azure Data Lake, Azure Databricks, and Azure Synapse Analytics).
 
-Power BI or another reporting tool for visualizations.
 
 Basic knowledge of SQL and data engineering concepts.
 
