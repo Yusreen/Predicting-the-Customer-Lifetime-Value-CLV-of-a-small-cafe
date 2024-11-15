@@ -90,9 +90,9 @@ Metadata Tables are used to track the last processed date to ensure that only ne
     
 In the Gold Layer, aggregated business metrics are calculated, such as:
 
-Customer Lifetime Value (CLV): Calculated by summing up the Total Spend per customer over their tenure.
+Retention analysis
 
-Average customer spending: Customers are grouped into segments based on their CLV, visit frequency, and loyalty status.
+Spending analysis
 
 
 ### 5. Reporting and Insights
