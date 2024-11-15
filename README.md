@@ -47,16 +47,7 @@ Bronze Layer (Raw Data): This is where all the raw, unprocessed transactional da
 
 Silver Layer (Cleaned and Transformed Data): In this layer, data is cleaned and enriched. We perform necessary transformations, such as renaming columns, adding ingestion_date in all datasets.
 
-Gold Layer (Aggregated Data): This layer contains business-ready, aggregated data for reporting and analysis. 
-The following tables were created:
-
-1. average customer spending
-2. clv estimate
-3. item purchased
-4. loyalty spending
-5. signup date analysis
-6. spending loyalty status
-7. spending per day
+Gold Layer (Aggregated Data): This layer contains business-ready, aggregated data for reporting and analysis. [see feature engineering for more information]
    
 
 
@@ -84,7 +75,7 @@ Data from multiple sources (Transaction Data, Customer Data, Visit Frequency, Di
 5. signup date analysis
 6. spending loyalty status
 7. spending per day
-8. 
+
 ### 3. Incremental Loads
    
 Data is incrementally loaded using timestamps or unique identifiers like Transaction Date or Customer ID.
