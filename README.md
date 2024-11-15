@@ -92,17 +92,38 @@ In the Gold Layer, aggregated business metrics are calculated, such as:
 
 Customer Lifetime Value (CLV): Calculated by summing up the Total Spend per customer over their tenure.
 
-Customer Segments: Customers are grouped into segments based on their CLV, visit frequency, and loyalty status.
+Average customer spending: Customers are grouped into segments based on their CLV, visit frequency, and loyalty status.
 
-KPIs: Key performance indicators such as Total CLV, Average CLV per Customer, and Customer Retention Rate are generated.
-These metrics are stored in a business-ready format for reporting, dashboarding, and decision-making.
 
 ### 5. Reporting and Insights
-The aggregated data is used for reporting purposes in Tableau.
+The following visualizations were created:
+### Retention Analysis
+1. #### CLV
 
-Customer Segmentation reports help target different customer groups based on their spending behavior.
+ ![image](https://github.com/user-attachments/assets/cc5890fc-58a4-4e37-93d2-b5506ede1d77)
 
-Promotions Impact: The effects of discounts or promotions on CLV and visit frequency are analyzed.
+ 2. #### Churn Prediction
+![ChurnPrediction](https://github.com/user-attachments/assets/0bbf9c1f-06e6-43bc-b595-da748b874ef9)
+
+### Spending Analysis
+1. #### Item purchased
+![ItemPurchased](https://github.com/user-attachments/assets/74655695-27ac-48dc-9be5-48e7f68330c4)
+
+2. #### Average spending per week
+![AverageSpendingPerWeek](https://github.com/user-attachments/assets/7d75ba6f-f23e-4bc7-9805-37da0a4c2251)
+
+3. #### Average spending per visit
+![AverageSpendingPerVisit](https://github.com/user-attachments/assets/60e9e1c4-1822-49af-a16b-ec42d8ce294c)
+
+4. #### Average spending per loyalty status
+![AverageSpendingPerLoyalStatus](https://github.com/user-attachments/assets/59af4014-daaa-46fd-baeb-b81a1156e2e1)
+
+
+
+
+
+
+
 
 ## Future Developments
 
