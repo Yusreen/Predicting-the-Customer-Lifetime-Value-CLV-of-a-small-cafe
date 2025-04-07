@@ -13,35 +13,35 @@ The project is based on the following datasets:
 
 1. Transaction Data:
 
-Customer ID: A unique identifier for each customer.
+- Customer ID: A unique identifier for each customer.
 
-Transaction Date: The date the transaction occurred.
+- Transaction Date: The date the transaction occurred.
 
-Transaction Amount: The total amount spent by the customer in the transaction.
+- Transaction Amount: The total amount spent by the customer in the transaction.
 
-Item Purchased: A description of the items purchased (e.g., coffee, pastry).
+- Item Purchased: A description of the items purchased (e.g., coffee, pastry).
 
-Discount Applied: The discount applied during the transaction, if any.
+- Discount Applied: The discount applied during the transaction, if any.
 
 2. Customer Data:
    
-Customer ID: A unique identifier for each customer.
+- Customer ID: A unique identifier for each customer.
 
-Signup Date: The date the customer signed up for the loyalty program (if applicable).
+- Signup Date: The date the customer signed up for the loyalty program (if applicable).
 
-Loyalty Program Status: A flag or status indicating whether the customer is part of the loyalty program.
+- Loyalty Program Status: A flag or status indicating whether the customer is part of the loyalty program.
 
 3. Visit Frequency:
    
-Customer ID: A unique identifier for each customer.
+- Customer ID: A unique identifier for each customer.
 
-Number of Visits in the Last Year: The total number of visits the customer made to the cafe over the past year.
+- Number of Visits in the Last Year: The total number of visits the customer made to the cafe over the past year.
 
 4. Discounts/Promotions:
    
-Transaction Date: The date the transaction occurred.
+- Transaction Date: The date the transaction occurred.
 
-Discount Applied: The discount applied during the transaction, if any.
+- Discount Applied: The discount applied during the transaction, if any.
 
 ## Medallion Architecture Overview
 
