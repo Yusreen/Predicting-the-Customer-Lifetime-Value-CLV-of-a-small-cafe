@@ -47,11 +47,11 @@ The project is based on the following datasets:
 
 This project follows the Medallion Architecture for data processing, which involves organizing data into three layers:
 
-Bronze Layer (Raw Data): This is where all the raw, unprocessed transactional data is stored. It contains the data as-is, without any transformations.
+- Bronze Layer (Raw Data): This is where all the raw, unprocessed transactional data is stored. It contains the data as-is, without any transformations.
 
-Silver Layer (Cleaned and Transformed Data): In this layer, data is cleaned and enriched. We perform necessary transformations, such as renaming columns, adding ingestion_date in all datasets.
+- Silver Layer (Cleaned and Transformed Data): In this layer, data is cleaned and enriched. We perform necessary transformations, such as renaming columns, adding ingestion_date in all datasets.
 
-Gold Layer (Aggregated Data): This layer contains business-ready, aggregated data for reporting and analysis. [see feature engineering for more information]
+- Gold Layer (Aggregated Data): This layer contains business-ready, aggregated data for reporting and analysis. [see feature engineering for more information]
    
 
 
@@ -60,15 +60,15 @@ Gold Layer (Aggregated Data): This layer contains business-ready, aggregated dat
 The project follows the following key steps to calculate CLV and incrementally update the datasets:
 
 ### 1. Data Ingestion (Bronze Layer). 
-Raw transaction, customer, visit frequency, and discount data are ingested and stored in the Bronze Layer.
+- Raw transaction, customer, visit frequency, and discount data are ingested and stored in the Bronze Layer.
 
-The raw data is stored in Azure Data Lake or Azure Blob Storage in formats like Parquet or Delta Lake to optimize storage and enable schema evolution.
+- The raw data is stored in Azure Data Lake or Azure Blob Storage in formats like Parquet or Delta Lake to optimize storage and enable schema evolution.
 
 ### 2. Data Transformation (Silver Layer)
    
-The raw data is cleaned, transformed, and enriched in the Silver Layer.
+- The raw data is cleaned, transformed, and enriched in the Silver Layer.
 
-Data from multiple sources (Transaction Data, Customer Data, Visit Frequency, Discounts) is joined based on Customer ID.
+- Data from multiple sources (Transaction Data, Customer Data, Visit Frequency, Discounts) is joined based on Customer ID.
 
 ### Feature engineering is performed to create useful features such as:
 
@@ -94,9 +94,9 @@ Metadata Tables are used to track the last processed date to ensure that only ne
     
 In the Gold Layer, aggregated business metrics are calculated, such as:
 
-Retention analysis
+- Retention analysis
 
-Spending analysis
+- Spending analysis
 
 
 ### 5. Reporting and Insights
