@@ -3,6 +3,10 @@
 Customer Lifetime Value (CLV) is a crucial metric for businesses to understand how valuable each customer is over their entire relationship with the brand. For a cafe, CLV can help determine how much revenue a customer will likely generate, allowing for targeted marketing, personalized offers, and improving customer retention strategies.
 This project involves calculating the CLV for a cafe based on customer transaction data, using a structured approach called Medallion Architecture to manage and process data efficiently. The goal is to create an automated pipeline for incremental data processing and CLV calculation, allowing the business to derive actionable insights and make data-driven decisions.
 
+## Solution Architecture
+![image](https://github.com/user-attachments/assets/a91c85c6-c766-4c5b-9318-cdb4bd86d207)
+
+
 ## Datasets Used
 
 The project is based on the following datasets:
